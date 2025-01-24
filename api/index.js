@@ -1,3 +1,3 @@
-const server = require("../dist/pokemon-ssr/server/server.mjs");
-
-module.exports = server.app();
+export default import("../dist/pokemon-ssr/server/server.mjs").then((module) =>
+  module.app()
+);
