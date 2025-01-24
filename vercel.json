@@ -1,7 +1,7 @@
 {
   "version": 2,
   "public": true,
-  "name": "angular-ssr-startup",
+  "name": "pokemon-ssr",
   "rewrites": [{ "source": "/(.*)", "destination": "/api" }],
   "functions": {
     "api/index.js": {
